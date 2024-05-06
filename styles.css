@@ -1,39 +1,71 @@
-h1 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-size: 2.5em; /* 40px / 16 = 2.5em */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h2 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-size: 2.188em;
+html, body {
+    margin: 0;
+    font-family: sans-serif;
+    
 }
 
-h3 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+div.h1 {
+    width: auto;
+    height: 200px;
+    padding: 50px;
+    margin: 10px;
+    background-color: lightgray;
+
+    border: 20px solid black;
     text-align: center;
-    font-size: 1.875em;
 }
 
-h4 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ul.recipe-list {
+    width: auto;
+    height: 600px;
+    padding: 50px;
+    margin: 10px;
+    background-color: aquamarine;
+    list-style-type: none;
+    border: 20px solid black;
     text-align: center;
-    font-size: 1.563em;
 }
 
-p {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+li.cheesecake, li.poundcake, li.brownies {
+    width: auto;
+    height: 100px;
+    padding: 50px;
+    margin: 10px;
+    background-color: deepskyblue;
+
+    border: 20px solid black;
     text-align: center;
-    font-size: 1.25em;
 }
 
-div.parent {
-    text-align: center;
-    list-style-position: inside;
-}
 
-ul, ol {
-    display: inline-block;
-    text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.footer {
+    width: auto;
+    height: 100px;
+    padding: 50px;
+    margin: 10px;
+    background-color: bisque;
+
+    border: 20px solid black;
+    text-align: center;
 }
